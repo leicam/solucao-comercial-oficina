@@ -8,6 +8,6 @@ namespace Oficina.Dominio.nsInterfaces.nsRepositorios
 {
     public interface IUnitOfWork
     {
-        public IUsuarioRepositorio UsuarioRepositorio { get; }
+        public IUsuarioAdministradorRepositorio UsuarioRepositorio { get; }
     }
 }
