@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Oficina.DTO.nsClasses;
 
 namespace Oficina.Dominio.nsInterfaces.nsServices
 {
     public interface IUsuarioServico
     {
-
+        string Autenticar(UsuarioDTO dto);
     }
 }

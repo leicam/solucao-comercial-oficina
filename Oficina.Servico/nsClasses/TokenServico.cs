@@ -13,15 +13,15 @@ namespace Oficina.Servico.nsClasses
     {
         private readonly JwtSecurityTokenHandler _handler = new JwtSecurityTokenHandler();
 
-        public string Gerar(UsuarioDTO usuario) 
-            => _handler.WriteToken(_handler.CreateToken(GetTokenDescriptor(usuario)));
+        public string Gerar(TokenDTO dto)
+            => _handler.WriteToken(_handler.CreateToken(GetTokenDescriptor(dto.Email)));
 
-        private SecurityTokenDescriptor GetTokenDescriptor(UsuarioDTO usuario)
+        private SecurityTokenDescriptor GetTokenDescriptor(string email)
             => new SecurityTokenDescriptor()
             {
                 Subject = new ClaimsIdentity(new Claim[]
                 {
-                    new Claim(ClaimTypes.Email, usuario.Email),
+                    new Claim(ClaimTypes.Email, email),
                 }),
                 Expires = DateTime.UtcNow.AddDays(1),
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(GetChave()), SecurityAlgorithms.HmacSha256Signature),

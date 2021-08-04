@@ -8,6 +8,7 @@ namespace Oficina.DTO.nsClasses
 {
     public class UsuarioDTO
     {
-        public string Email { get; private set; }
+        public string Email { get; set; }
+        public string Senha { get; set; }
     }
 }

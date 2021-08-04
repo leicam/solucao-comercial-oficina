@@ -9,6 +9,6 @@ namespace Oficina.Dominio.nsInterfaces.nsServices
 {
     public interface ITokenServico
     {
-        string Gerar(UsuarioDTO usuario);
+        string Gerar(TokenDTO dto);
     }
 }
