@@ -1,0 +1,11 @@
+C:\Users\juliano.maciel\source\repos\Oficina\Oficina.Utilidades\bin\Debug\net5.0\Oficina.Utilidades.deps.json
+C:\Users\juliano.maciel\source\repos\Oficina\Oficina.Utilidades\bin\Debug\net5.0\Oficina.Utilidades.dll
+C:\Users\juliano.maciel\source\repos\Oficina\Oficina.Utilidades\bin\Debug\net5.0\ref\Oficina.Utilidades.dll
+C:\Users\juliano.maciel\source\repos\Oficina\Oficina.Utilidades\bin\Debug\net5.0\Oficina.Utilidades.pdb
+C:\Users\juliano.maciel\source\repos\Oficina\Oficina.Utilidades\obj\Debug\net5.0\Oficina.Utilidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\juliano.maciel\source\repos\Oficina\Oficina.Utilidades\obj\Debug\net5.0\Oficina.Utilidades.AssemblyInfoInputs.cache
+C:\Users\juliano.maciel\source\repos\Oficina\Oficina.Utilidades\obj\Debug\net5.0\Oficina.Utilidades.AssemblyInfo.cs
+C:\Users\juliano.maciel\source\repos\Oficina\Oficina.Utilidades\obj\Debug\net5.0\Oficina.Utilidades.csproj.CoreCompileInputs.cache
+C:\Users\juliano.maciel\source\repos\Oficina\Oficina.Utilidades\obj\Debug\net5.0\Oficina.Utilidades.dll
+C:\Users\juliano.maciel\source\repos\Oficina\Oficina.Utilidades\obj\Debug\net5.0\ref\Oficina.Utilidades.dll
+C:\Users\juliano.maciel\source\repos\Oficina\Oficina.Utilidades\obj\Debug\net5.0\Oficina.Utilidades.pdb

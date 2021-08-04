@@ -1,0 +1,12 @@
+C:\Users\juliano.maciel\source\repos\Oficina\Oficina.DTO\bin\Debug\net5.0\Oficina.DTO.deps.json
+C:\Users\juliano.maciel\source\repos\Oficina\Oficina.DTO\bin\Debug\net5.0\Oficina.DTO.dll
+C:\Users\juliano.maciel\source\repos\Oficina\Oficina.DTO\bin\Debug\net5.0\ref\Oficina.DTO.dll
+C:\Users\juliano.maciel\source\repos\Oficina\Oficina.DTO\bin\Debug\net5.0\Oficina.DTO.pdb
+C:\Users\juliano.maciel\source\repos\Oficina\Oficina.DTO\obj\Debug\net5.0\Oficina.DTO.csproj.AssemblyReference.cache
+C:\Users\juliano.maciel\source\repos\Oficina\Oficina.DTO\obj\Debug\net5.0\Oficina.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\juliano.maciel\source\repos\Oficina\Oficina.DTO\obj\Debug\net5.0\Oficina.DTO.AssemblyInfoInputs.cache
+C:\Users\juliano.maciel\source\repos\Oficina\Oficina.DTO\obj\Debug\net5.0\Oficina.DTO.AssemblyInfo.cs
+C:\Users\juliano.maciel\source\repos\Oficina\Oficina.DTO\obj\Debug\net5.0\Oficina.DTO.csproj.CoreCompileInputs.cache
+C:\Users\juliano.maciel\source\repos\Oficina\Oficina.DTO\obj\Debug\net5.0\Oficina.DTO.dll
+C:\Users\juliano.maciel\source\repos\Oficina\Oficina.DTO\obj\Debug\net5.0\ref\Oficina.DTO.dll
+C:\Users\juliano.maciel\source\repos\Oficina\Oficina.DTO\obj\Debug\net5.0\Oficina.DTO.pdb

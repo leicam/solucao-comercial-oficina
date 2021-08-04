@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Oficina.Dominio/1.0.0": {
+        "dependencies": {
+          "Oficina.DTO": "1.0.0"
+        },
+        "runtime": {
+          "Oficina.Dominio.dll": {}
+        }
+      },
+      "Oficina.DTO/1.0.0": {
+        "runtime": {
+          "Oficina.DTO.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Oficina.Dominio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Oficina.DTO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
