@@ -13,15 +13,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Oficina.IoC.nsClasses
+namespace Oficina.IoC.nsExtensions
 {
-    public static class InjecaoDeDependencia
+    public static class IoCExtensions
     {
-        public static void Injetar(IServiceCollection services, IConfiguration configuration)
+        public static void InjetarDependencias(this IServiceCollection services, IConfiguration configuration)
         {
             #region Contexto
 
-            services.AddDbContext<OficinaContexto>(x 
+            services.AddDbContext<OficinaContexto>(x
                 => x.UseMySql(configuration.GetDefaultConnectionString(), ServerVersion.AutoDetect(configuration.GetDefaultConnectionString())));
             services.AddScoped<OficinaContexto>();
 
@@ -41,5 +41,6 @@ namespace Oficina.IoC.nsClasses
 
             #endregion Repositorios
         }
+
     }
 }

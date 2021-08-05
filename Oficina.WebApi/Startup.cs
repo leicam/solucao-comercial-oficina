@@ -1,13 +1,10 @@
+using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Oficina.IoC.nsExtensions;
 
 namespace Oficina.WebApi
 {
@@ -23,7 +20,11 @@ namespace Oficina.WebApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.InjetarDependencias(Configuration);
             services.AddControllersWithViews();
+            services.AddMediatR(typeof(Startup));
+            services.AddAutoMapper(typeof(Startup));
+            services.AddMvc();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
