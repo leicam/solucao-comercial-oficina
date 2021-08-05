@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "2Zj94KKNcqPBh0Vup79WKQeUo34F0s5qBwh/yqIirA3fOcx4ykkOOR/9v0qhV1+F3hU02dkMYsa/c72WBUnU1g==",
+  "dgSpecHash": "rpCF7baIBlR9MyI4C9WXazwZPu9Y3qfGAvptY7RmoFvUaKshy5Xmau4he5uTnyaOCYKETFYhQacQ97xQ4Qkxlg==",
   "success": true,
   "projectFilePath": "C:\\Users\\juliano.maciel\\source\\repos\\Oficina\\Oficina.Utilidades\\Oficina.Utilidades.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\juliano.maciel\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\juliano.maciel\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
